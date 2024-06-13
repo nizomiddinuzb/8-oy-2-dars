@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deadline Homework</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h1 class="w-[200px] mx-auto font-bold text-4xl">To-Do-List</h1>
+    <section class="w-72 mx-auto">
+        <div class="border-double border-4 border-sky-500 mt-4 flex justify-between">
+            <label for="name">Name</label>
+            <input id="name" class="border-solid border-2 border-sky-500" type="text" placeholder="Name">
+        </div>
+        <div class="border-double border-4 border-sky-500 mt-4 flex justify-between">
+            <label for="surname">Surname</label>
+            <input id="surname" class="border-solid border-2 border-sky-500" type="text" placeholder="Surname">
+        </div>
+        <div class="border-double border-4 border-sky-500 mt-4 flex justify-between">
+            <label for="age">Age</label>
+            <input id="age" class="border-solid border-2 border-sky-500" type="number" placeholder="Age">
+        </div>
+        <div class="border-double border-4 border-sky-500 mt-4 flex justify-between">
+            <label for="unmarried">Alone</label>
+            <input id="unmarried" class="border-solid border-2 border-sky-500" type="text" placeholder="Unmarried">
+        </div>
+        <div class="border-double border-4 border-sky-500 mt-4 flex justify-between">
+            <label for="job">Job</label>
+            <input id="job" class="border-solid border-2 border-sky-500" type="text" placeholder="Job">
+        </div>
+        <div class="border-double border-4 border-sky-500 mt-4 flex justify-between">
+            <label for="hobbie">Hobbie</label>
+            <input id="hobbie" class="border-solid border-2 border-sky-500" type="text" placeholder="Hobbie">
+        </div>
+        <button id="submit" class="w-[160px] h-[45px] mt-6 border-dashed border-2 border-sky-500 bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300" type="button">Submit</button>
+    </section>
+    <div id="userCards" class="mt-4"></div>
+
+    <script src="./public/app.js"></script>
+</body>
+</html>
